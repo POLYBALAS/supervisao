@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS POLYBLAS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#formularios">Formulário de Roteirização de Cliente</a></li>
+                <li><a href="#agenda">Agenda de Supervisores</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+            </ul>
+        </nav>
+        <img src="c:\Users\arthurnobrega\Desktop\ARTHUR TESTE\logo_polybalas.png" alt="Logo da Empresa" width="110" height="300">
+    </header>
+    <h1 align="center">USO EXCLUSIVO PARA GESTORES</h1>
+    <h4 align="center">(GERENTES E SUPERVISORES)</h4>
+    <br>
+    
+    <div id="inicial" align="center">
+    <div id="formularios" class="colorido" align="center">
+        <h1>Formulário de Roteirização de Cliente</h1>
+        <form action="https://api.sheetmonkey.io/form/xvaGsPbziGYYi3jtsmTUm5" method="post" id="formRoteirizacao" class="formulario">
+           
+            <div class="form-item">
+                <label for="razaoSocial">Razão Social do Cliente:</label>
+                <input type="text" id="razaoSocial" name="razaoSocial" required>
+            </div>
+
+            <div class="form-item">
+                <label for="codigoCliente">Código do Cliente:</label>
+                <input type="text" id="codigoCliente" name="codigoCliente" required>
+            </div>
+
+            <div class="form-item">
+                <label for="bairroCliente">Bairro do Cliente:</label>
+                <input type="text" id="bairroCliente" name="bairroCliente" required>
+            </div>
+
+            <div class="form-item">
+                <label for="cidadeCliente">Cidade do Cliente:</label>
+                <input type="text" id="cidadeCliente" name="cidadeCliente" required>
+            </div>
+
+            <div class="form-item">
+                <label for="nomeVendedor">Nome do Vendedor:</label>
+                <input type="text" id="nomeVendedor" name="nomeVendedor" required>
+            </div>
+
+            <div class="form-item">
+                <label for="codigoVendedor">Código do Vendedor:</label>
+                <input type="text" id="codigoVendedor" name="codigoVendedor" required>
+            </div>
+
+            <div class="form-item">
+                <label for="rotaVendedor">Rota do Vendedor:</label>
+                <input type="text" id="rotaVendedor" name="rotaVendedor" required>
+            </div>
+
+            <div class="form-item">
+                <label for="diaVisita">Dia de Visita:</label>
+                <input type="date" id="diaVisita" name="diaVisita" required>
+            </div>
+
+            <div class="form-item">
+                <label for="modeloVisita">Modelo de Visita:</label>
+                <div class="modelo-visita">
+                    <label for="visita1">1/3</label>
+                    <input type="radio" id="visita1" name="modeloVisita" value="1/3" required>
+                    <label for="visita2">2/4</label>
+                    <input type="radio" id="visita2" name="modeloVisita" value="2/4">
+                    <label for="visitaSemanal">Semanal</label>
+                    <input type="radio" id="visitaSemanal" name="modeloVisita" value="Semanal">
+                </div>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="red-button">Enviar</button>
+                <button type="reset" class="red-button">Limpar Campos</button>
+            </div>
+        </form>
+    </div><br><br><br>
+
+    <div id="agenda" class="colori" align="center">
+        <h1>Agenda de Supervisores</h1>
+        <form action="https://api.sheetmonkey.io/form/vJrmpQcprn3BrmzmrHda6v" method="post" id="formAgenda">
+            
+            <div class="form-item">
+                <label for="funcionario">Funcionário:</label>
+                <input type="text" id="funcionario" name="funcionario" required>
+            </div>
+
+            <div class="form-item">
+                <label for="placaVeiculo">Placa do Veículo:</label>
+                <input type="text" id="placaVeiculo" name="placaVeiculo" required>
+            </div>
+
+            <div class="form-item">
+                <label for="mes">Mês:</label>
+                <input type="month" id="mes" name="mes" required>
+            </div>
+
+            <div class="form-item">
+                <label for="semanaMes">Semana do Mês:</label>
+                <input type="number" id="semanaMes" name="semanaMes" required>
+            </div>
+
+            <div class="form-item">
+                <label for="segunda">Segunda-feira:</label>
+                <input type="date" id="segunda" name="segunda" required>
+                <input type="text" id="cidadeSegunda" name="cidadeSegunda" placeholder="Cidade" required>
+                <input type="text" id="observacaoSegunda" name="observacaoSegunda" placeholder="Observação">
+            </div>
+
+            <div class="form-item">
+                <label for="terca">Terça-feira:</label>
+                <input type="date" id="terca" name="terca" required>
+                <input type="text" id="cidadeTerca" name="cidadeTerca" placeholder="Cidade" required>
+                <input type="text" id="observacaoTerca" name="observacaoTerca" placeholder="Observação">
+            </div>
+
+            <div class="form-item">
+                <label for="quarta">Quarta-feira:</label>
+                <input type="date" id="quarta" name="quarta" required>
+                <input type="text" id="cidadeQuarta" name="cidadeQuarta" placeholder="Cidade" required>
+                <input type="text" id="observacaoQuarta" name="observacaoQuarta" placeholder="Observação">
+            </div>
+
+            <div class="form-item">
+                <label for="quinta">Quinta-feira:</label>
+                <input type="date" id="quinta" name="quinta" required>
+                <input type="text" id="cidadeQuinta" name="cidadeQuinta" placeholder="Cidade" required>
+                <input type="text" id="observacaoQuinta" name="observacaoQuinta" placeholder="Observação">
+            </div>
+
+            <div class="form-item">
+                <label for="sexta">Sexta-feira:</label>
+                <input type="date" id="sexta" name="sexta" required>
+                <input type="text" id="cidadeSexta" name="cidadeSexta" placeholder="Cidade" required>
+                <input type="text" id="observacaoSexta" name="observacaoSexta" placeholder="Observação">
+            </div>
+
+            <div class="form-item">
+                <label for="sabado">Sábado:</label>
+                <input type="date" id="sabado" name="sabado" required>
+                <input type="text" id="cidadeSabado" name="cidadeSabado" placeholder="Cidade" required>
+                <input type="text" id="observacaoSabado" name="observacaoSabado" placeholder="Observação">
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="red-button">Enviar</button>
+                <button type="reset" class="red-button">Limpar Campos</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="mapa">
+        <h1>Mapa de clientes</h1>
+        <iframe src="https://www.google.com/maps/d/embed?mid=17C3M0zi1sgiVQFhyb85tmkNdBsQkAvc&ehbc=2E312F" width="800" height="480"></iframe>
+    </div>
+</div>
+<br>
+<br>
+    <footer>
+        <div>
+            <a href="https://wa.me/message/LL3NLMNAPYGOI1"><img src="c:\Users\arthurnobrega\Desktop\ARTHUR TESTE\logo whatsapp.avif" alt="WhatsApp" width="30" height="20"></a>
+            <p>(83) 99107-6029</p>
+            <br>
+            <br>
+            <img src="c:\Users\arthurnobrega\Desktop\ARTHUR TESTE\logo e-mail.avif" alt="E-mail" width="30" height="20">
+            <p>arthur.nobrega@polybalas.com.br</p>
+        </div>
+    </footer>
+</body>
+</html>

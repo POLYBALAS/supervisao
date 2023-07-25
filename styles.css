@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#686868;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    color: black;
+}
+
+h4{
+        color: #000000;
+}
+header img {
+    height: 50px;
+}
+
+header h1 {
+    color: rgb(2, 2, 2);
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.colorido {
+    background-color: #726f6f;
+    padding: 50px;
+    border-radius: 10px;
+    width: 550px;
+    display: center;
+}
+
+.colori{
+    background-color: #726f6f;
+    padding: 50px;
+    border-radius: 10px;
+    width: 550px;
+    display: center;
+}
+
+.form-item {
+    margin-bottom: 10px;
+}
+
+.form-item label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.modelo-visita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
